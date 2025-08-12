@@ -10,9 +10,8 @@ a {
 .container {
   margin: 120px auto;
   max-width: 600px;
-  background-color: #fde4ce;
-  border-radius: 10px;
-  padding: 30px;
+  /* border-radius: 10px;
+  padding: 30px; */
 }
 
 header {
@@ -21,20 +20,22 @@ header {
 
 h1 {
   text-align: center;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
   color: #272044;
 }
 
 p {
   text-align: center;
   color: #272044;
+  font-size: 15px;
+  padding: 10px;
 }
 
 form {
   padding: 30px;
+  background-color: #fde4ce;
   border-radius: 10px;
   display: flex;
   margin-bottom: 30px;
@@ -51,7 +52,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background-color: #c75d2c;
+  background: #c75d2c;
   color: white;
   border: none;
   width: 150px;
@@ -61,8 +62,8 @@ form {
 }
 
 .recipe {
+  background-color: #fde4ce;
   font-size: 16px;
-  background-color: white;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid #c75d2c;
