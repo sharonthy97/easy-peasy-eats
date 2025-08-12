@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Easy Peasy Eats 🍳</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -13,7 +14,7 @@
         <p>Endless easy recipe with one click away!</p>
       </header>
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             autofocus
@@ -34,15 +35,7 @@
               <li>asdasd</li>
             </ul>
           </div>
-          <div class="instructions">
-            Cut the green onions (1 ounce) into about 1.5-inch-long batons.
-            Separate the whites and the greens, as we’ll be cooking the whites
-            first.
-            <br />
-            Cut celery (1 ounce) into diagonal slices. Cut against the fibers
-            but at an angle so the celery will soften nicely in the heat, but
-            the pieces are longer than if you cut them perfectly perpendicular.
-          </div>
+          <div class="instructions" id="recipe"></div>
         </div>
       </main>
       <footer>
