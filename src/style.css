@@ -31,14 +31,25 @@ p {
   color: #272044;
   font-size: 15px;
   padding: 10px;
+  opacity: 0.9;
 }
 
-form {
+.form-container {
   padding: 30px;
   background-color: #fde4ce;
   border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
 }
 
 .search {
@@ -71,6 +82,10 @@ form {
   border-radius: 10px;
 }
 
+.hidden {
+  display: none;
+}
+
 .recipe strong {
   color: #c75d2c;
 }
@@ -79,4 +94,19 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
